@@ -1,0 +1,9 @@
+# 2 DATA CLEANING PIPELINES:
+Raw Data
+--> Remove obvious outliers 
+--> Impute missing values (mean, interpolation, model-based)
+--> Normalize/standardize
+--> Quality control checks
+--> Version and document
+
+
