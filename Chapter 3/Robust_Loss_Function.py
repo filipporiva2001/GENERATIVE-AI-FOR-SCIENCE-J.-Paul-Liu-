@@ -65,3 +65,15 @@ print(f"MAE Loss:   {mae_loss.item():.4f}")
 print(f"Huber Loss: {huber.item():.4f}")
 print("\n✓ Huber loss is more robust to outliers than MSE,")
 print("  and smoother than MAE around zero.")
+
+
+# OUTPUT: 
+
+
+MSE Loss:   3.0381
+MAE Loss:   1.3082
+Huber Loss: 0.8944
+
+✓ Huber loss is more robust to outliers than MSE,
+  and smoother than MAE around zero.
+
